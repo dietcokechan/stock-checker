@@ -17,8 +17,7 @@
     "mongodb": "^6.1.0",
     "mongoose": "^7.5.2",
     "node": "^16.20.1",
-    "node-fetch": "^3.3.2",
-    "nodejs": "^0.0.0"
+    "node-fetch": "^3.3.2"
   },
   "repository": {
     "type": "git",

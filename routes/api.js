@@ -1,12 +1,11 @@
 'use strict';
 
 var expect = require('chai').expect;
-var mongoClient = require('mongodb');
+var MongoClient = require('mongodb');
 const mongoose = require('mongoose');
-const fetch = require('node-fetch');
 const dbconn = process.env.DB;
-var monconn = mongoose.connection;
-const stockLike = require('./stocklike');
+var connection = mongoose.connection;
+const StockLike = require('./stocklike');
 require('dotenv').config();
 const path = require('path');
 
